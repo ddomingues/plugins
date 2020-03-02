@@ -12,10 +12,14 @@ flutter:
         pluginClass: ImagePickerPlugin
       ios:
         pluginClass: FLTImagePickerPlugin
+      web:
+        pluginClass: ImagePickerWebPlugin
+        fileName: image_picker_web_plugin.dart
 
 dependencies:
   flutter:
     sdk: flutter
+  file: ^5.1.0
   flutter_plugin_android_lifecycle: ^1.0.2
 
 dev_dependencies:
